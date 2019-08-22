@@ -1,0 +1,41 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<script src="app.component.ts"></script>
+<body>
+<div class="ui inverted menu" id="header">
+  <a class="active item">
+    Home
+  </a>
+  <a class="item">
+    Messages
+  </a>
+  <a class="item">
+    Friends
+  </a>
+  <a class="item">
+    <img src="../assets/img/Logout%20Rounded%20Left_48px.png" alt="">
+  </a>
+</div>
+<div class="ui inverted vertical pointing menu" id="nav">
+  <a routerLink="dashboard" class="active item" href="#">
+    Home
+  </a>
+  <a routerLink="customer"class="item" href="#">
+    Customer
+  </a>
+  <a routerLink="item"class="item" href="#">
+    Item
+  </a>
+  <a routerLink="notfound"class="item" href="#">
+    Place Order
+  </a>
+  <a routerLink="notfound"class="item" href="#">
+    Report
+  </a>
+
+</div>
+<div class="con">
+  <router-outlet></router-outlet>
+</div>
+</body>
+
+

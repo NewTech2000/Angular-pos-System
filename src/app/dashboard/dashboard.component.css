@@ -1,0 +1,17 @@
+.con{
+  width: 1000px;
+  padding-right: 10px;
+  position: absolute;
+  top: 0px;
+  left: 250px;
+}
+#nav{
+  height: 585px;
+  position: fixed;
+  top:55px;
+}
+#header{
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
+}
